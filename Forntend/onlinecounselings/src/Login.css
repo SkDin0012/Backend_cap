@@ -1,0 +1,410 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #3a7bd5, #d4145a);
+}
+
+.login-box {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.input-field {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-field label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.input-field input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-btn:disabled {
+    background-color: #ccc;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+.success-message {
+    color: green;
+    margin-top: 10px;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh; 
+    background: linear-gradient(135deg, #3a7bd5, #d4145a);
+}
+
+.register-container {
+    display: flex;
+    height: 100vh;
+    background: url('./images.jpeg') no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+
+.register-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(128, 0, 128, 0.5); /* Gradient overlay */
+}
+
+.register-form-box {
+    margin-left: auto;
+    margin-right: 0;
+    background: white;
+    padding: 50px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    z-index: 1; /* Make sure the form is on top of the gradient overlay */
+}
+
+.register-form-box h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.input-group input,
+.input-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.input-group input.input-error {
+    border-color: red;
+}
+
+.input-group .error-message {
+    color: red;
+    font-size: 12px;
+}
+
+.register-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff0080;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.register-btn:disabled {
+    background-color: #ccc;
+}
+
+.success-message {
+    color: green;
+    margin-top: 10px;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+/* Payment css */
+
+.payment-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f1f1f1;
+}
+
+.payment-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    outline: none;
+}
+
+input:focus, select:focus {
+    border-color: #007bff;
+}
+
+.submit-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+.paypal-btn {
+    background-color: #ffc439;
+    color: #333;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.error-message, .success-message {
+    font-size: 14px;
+    color: red;
+    margin-bottom: 10px;
+}
+
+.success-message {
+    color: green;
+}
+
+.alternative-payments {
+    margin-top: 20px;
+}
+
+/* General form styling */
+.card {
+    max-width: 400px;
+    margin: 50px auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .card-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .card-header h5 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #2e6ba1;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+  }
+  
+  .form-control:focus {
+    border-color: #2e6ba1;
+    outline: none;
+    box-shadow: 0 0 5px rgba(46, 107, 161, 0.5);
+  }
+  
+  label.form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  button.btn-primary {
+    width: 100%;
+    background-color: #2e6ba1;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  button.btn-primary:hover {
+    background-color: #255986;
+  }
+  
+  button:disabled {
+    background-color: #999;
+    cursor: not-allowed;
+  }
+  
+  .alert {
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .alert-danger {
+    background-color: #e74c3c;
+  }
+  
+  .alert-success {
+    background-color: #2ecc71;
+  }
+  
+  .mb-3 {
+    margin-bottom: 15px;
+  }
+  
+  h1, h5 {
+    margin: 0;
+  }
+  
+  select.form-control {
+    padding: 10px;
+    background-color: white;
+    color: #333;
+  }
+  
+  /* For better appearance on smaller screens */
+  @media (max-width: 576px) {
+    .card {
+      width: 90%;
+      margin: 20px auto;
+      padding: 15px;
+    }
+  
+    .form-control {
+      font-size: 13px;
+      padding: 8px;
+    }
+  
+    button.btn-primary {
+      font-size: 14px;
+      padding: 8px;
+    }
+  }
+
+  /* header css */
+
+  .navbar-dark .bg-dark {
+    background-color: #4a90e2; 
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    margin-right: 15px;
+    font-size: 1.1rem;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffcc00; /* Custom hover color */
+}
+
+.btn-link.nav-link {
+    color: #fff;
+}
+
+.btn-link.nav-link:hover {
+    color: #ffcc00; /* Logout button hover */
+}
+
+.navbar-dark.bg-dark {
+    background-color: #4a90e2;
+}
+.bg-dark {
+    --bs-bg-opacity: 1;
+    /* background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important; */
+}
+
+  
+
+
+
